@@ -88,7 +88,7 @@
     7. shopName = useSelector(state=>state.products)
     8. const dispatch = useDispatch()
     9. useEffect(()=>dispatch({type: LOAD_PRODUCTS, payload: data})
-    10. Add store to index.js   
+    10. Add store to index.js
 13. Add Redux to Product Screen
     1. create product details constants, actions and reducers
     2. add reducer to store.js
@@ -120,7 +120,10 @@
     5. export MONGODB_URL
     6. create models/userModel.js
     7. create userSchema and userModel
-    8. create models/productModel.js
-    9. create productSchema and productModel
-    10. create userRoute
-    11. Seed sample data
+    8. create userRoute
+    9. Seed sample data
+19. Create Sample Products In MongoDB
+    1. create models/productModel.js
+    2. create productSchema and productModel
+    3. create productRoute
+    4. Seed sample data
